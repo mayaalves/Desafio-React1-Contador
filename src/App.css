@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box{
+  border: 8px solid grey;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.counter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+}
+
+h1{
+  font-size: 11vh;
+  margin-bottom: 40px;
+  color: rgba(0, 0, 0, 0.795);
+  text-shadow: 2px 1px grey;
+}
+
+button{
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.507);
+}
